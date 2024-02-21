@@ -15,8 +15,83 @@
 </head>
 <body>
   
-  <div>
-    <h1>START</h1>
+  <div class="mt-5">
+    <h1 class="text-center my-4">
+      CALCOLA IL PREZZO DEL TUO BIGLIETTO 
+    </h1>
+
+    <!-- crea biglietto  -->
+    <section>
+      <!-- per gli input  -->
+      <div>
+
+        <h4>NOME E COGNOME</h4>
+
+        <input type="text" class="form-control input_name">
+
+        <h4> Km da percorrere</h4>
+
+        <input type="text" class="form-control input_km">
+
+        <h4> fascia d'età</h4>
+
+        <select class="form-select input_age">
+          
+          <option selected>Open this select menu</option>
+          
+          <option value="1">over 18</option>
+          
+          <option value="2">under 18</option>
+          
+          <option value="3">over 65</option>
+        </select>
+
+      </div>
+
+      <!-- per i bottoni  -->
+      <div class="btn_sec d-flex justify-content-around">
+
+        <button class="btn btn-secondary btn-lg btn_gen">
+          GENERA
+        </button>
+        <button class="btn btn-secondary btn-lg btn_res">
+          ANNULLA
+        </button>
+
+      </div>
+
+    </section>
+
+    <h1 class="text-center">
+      IL TUO BIGLIETTO
+    </h1>
+
+    <!-- biglietto sezione  -->
+    <section>
+
+      <!-- biglietto  -->
+      <div class="ticket_sb">
+
+        <h3>DETTAGLIO PASSEGGERI</h3>
+        
+        <div>
+
+          <div>
+            <h4> NOME PASSEGGERO</h4>
+            <div class="passenger_name">
+              <!-- qua avro il nome passeggero  -->
+            </div>
+          </div>
+        
+
+        </div>
+
+
+      </div>
+
+    </section>
+
+
   </div>
 
   <script src="./js/script.js"></script>
