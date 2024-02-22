@@ -1,24 +1,3 @@
-body{
-  background-color: plum;
-  color: white;
-}
 
-section, .btn_sec{
-  max-width: 60%;
-  margin: 0 auto;
-  margin-bottom: 50px;
-}
-
-.btn_sec{
-  padding: 40px;
-}
-
-.ticket_sb{
-  background-color: white;
-  height: 255px;
-  border-radius: 20px;
-  color: black;
-  padding: 10px;
-}
 
 
